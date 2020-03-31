@@ -138,6 +138,8 @@ class PSTransformer(Transformer):
         if not str(type(stmt[0])) == '<class \'lark.tree.Tree\'>' and not str(type(stmt[0])) == "<class 'lark.lexer.Token'>":
             
             print(str(stmt[0]))
+    def explword(self,wd):
+      return str(wd[0])
 '''
 print(PSTransformer().transform(prsd))
 print(PSTransformer().transform(prsd2))
