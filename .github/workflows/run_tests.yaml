@@ -7,6 +7,6 @@ jobs:
         - name: Clone
           run: git clone https://github.com/zurgeg/poopy-lang.git
         - name: Run tests
-          run: python3 PL1.2/runner.py tests/viewstmt.poopy
+          run: python3 poopy-lang/PL1.2/runner.py tests/viewstmt.poopy
 
     
