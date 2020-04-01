@@ -6,6 +6,6 @@ jobs:
         steps:
 
         - name: Run tests
-          run: python3 PL1.2/runner.py tests/viewstmt.poopy
+          run: ls && python3 PL1.2/runner.py tests/viewstmt.poopy
 
     
