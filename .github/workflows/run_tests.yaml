@@ -1,0 +1,9 @@
+on: [push, pull_request]
+name: Run Tests
+jobs:
+    build:
+        runs-on: windows-latest
+        steps:
+            run: cp PL1.2/bin/runner.exe runner.exe
+            run: runner tests/viewstmt.poopy
+    
