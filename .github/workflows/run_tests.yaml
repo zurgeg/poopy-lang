@@ -5,6 +5,6 @@ jobs:
         runs-on: windows-latest
         steps:
         - name: Run tests
-          run: CMD xcopy PL1.2\bin\runner.exe && runner tests/viewstmt.poopy
+          run: CMD xcopy PL1.2\bin\runner.exe && CMD runner tests/viewstmt.poopy
 
     
