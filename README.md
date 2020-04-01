@@ -13,11 +13,10 @@ The ```view``` statement is used just like Python 2's ```print``` keyword. Do ``
 The only current statement supported is the ```if value => othervalue:``` which is **if** value is **equal to** (=>) other value return True. Otherwise, return False
 
 ### Expressions
-The only thing missing from the expression system is ** (to the power of) and // (sqrt). Those won't be that hard to implement and will ~~most likely be thrown into 1.1 or~~ definitly be in 1.2. You can do complex and simple expressions.
-
+Just like a math equation `*` for mulitplying, `+` for adding, `-` for subtracting, `/`, for division, `**` for exponents, `//` for sqrt.
 ### Functions
 **W.I.P**
 
 ### Modules
-**W.I.p** (Arriving in ~~probably~~ definitly in 1.2)
+```import modulename```
 
