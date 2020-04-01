@@ -2,9 +2,10 @@ on: [push, pull_request]
 name: Run Tests
 jobs:
     build:
-        runs-on: windows-latest
+        runs-on: ubuntu-latest
         steps:
+
         - name: Run tests
-          run: cd PL1.2/bin && CMD tree && runner ../../tests/viewstmt.poopy
+          run: python3 PL1.2/runner.py tests/viewstmt.poopy
 
     
