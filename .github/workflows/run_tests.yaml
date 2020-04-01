@@ -5,6 +5,6 @@ jobs:
         runs-on: windows-latest
         steps:
         - name: Run tests
-          run: cd PL1.2/bin && ./runner.exe ../../rtests.sh
+          run: cd PL1.2/bin && runner ../../rtests.sh
 
     
