@@ -4,6 +4,7 @@ import sys
 #If not on dev machine, use:
 import parser
 for i in open(sys.argv[1]).readlines():
+    print(i)
     prsd = parser.p.parse(i)
     
     parser.PSTransformer().transform(prsd)
