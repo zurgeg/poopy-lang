@@ -5,7 +5,7 @@ import sys
 import parser
 for i in open(sys.argv[1]).readlines():
     print(i)
-    prsd = parser.p.parse(i)
+    prsd = parser.p.parse(i.strip())
     
     parser.PSTransformer().transform(prsd)
     
