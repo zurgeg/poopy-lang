@@ -1,2 +1,3 @@
 # Using runner
-Download the runner from PL1.2
+***
+Download the latest version and cd to the directory and type in ```runner poopyfile.poopy```
