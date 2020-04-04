@@ -1,4 +1,7 @@
 # poopy-lang
+
+![Run Tests](https://github.com/zurgeg/poopy-lang/workflows/Run%20Tests/badge.svg)
+
 ## Basic syntax
 ### Strings
 Strings are simply represented by ```'```s and are used in ```view``` statments, which I'll get to later.
