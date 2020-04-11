@@ -1,0 +1,4 @@
+on: [issue, push]
+jobs:
+    build:
+        run: echo 'Poopy..'
