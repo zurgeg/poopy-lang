@@ -1,4 +1,4 @@
-on: issue
+on: issues
 name: 'Greet'
 description: 'Greet people'
 author: 'poopy-lang'
