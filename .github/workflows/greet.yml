@@ -1,4 +1,4 @@
-on: [issue, push]
+on: [issues, push]
 jobs:
     build:
         run: echo 'Poopy..'
