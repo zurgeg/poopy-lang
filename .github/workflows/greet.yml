@@ -1,0 +1,9 @@
+on: issue
+name: 'Greet'
+description: 'Greet people'
+author: 'poopy-lang'
+env:
+  repo-token: {{ secrets.GITHUB_TOKEN }}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
