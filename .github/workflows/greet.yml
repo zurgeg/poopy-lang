@@ -1,7 +1,7 @@
-
+on: issues
 name: Greetings
 
-on: issues
+
 
 jobs:
   greeting:
