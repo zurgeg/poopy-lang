@@ -1,4 +1,5 @@
 on: [issues, push]
 jobs:
     build:
-        run: echo 'Poopy..'
+        steps:
+            - run: echo 'Poopy..'
