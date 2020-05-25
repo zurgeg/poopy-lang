@@ -1,4 +1,4 @@
-print('PoopityScoopLang Parser 1.2Dev 0300')
+print('PoopyLang Parser 1.3')
 from lark import Lark, Transformer, Tree
 from lark.reconstruct import Reconstructor
 from math import sqrt
